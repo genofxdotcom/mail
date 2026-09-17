@@ -35,10 +35,10 @@
 	// Locally, put values in .dev.vars (copy .dev.vars.example).
 
 	"vars": {
-		"EMAIL_PROVIDER": "resend",
+		"EMAIL_PROVIDER": "cloudflare",
 		// Dashboard form requires a non-empty value. Keep example.com for
 		// Resend; replace with your domain when EMAIL_PROVIDER=cloudflare.
-		"CLOUDFLARE_MAIL_DOMAINS": "example.com"
+		"CLOUDFLARE_MAIL_DOMAINS": "genofx.com, genofx.page, genofx.app, genofx.tech"
 	},
 
 	"send_email": [
